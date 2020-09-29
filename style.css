@@ -1,0 +1,25 @@
+
+.container{
+    margin: 0 auto;
+    max-width: 1325px;    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+    margin: 0px -40px 0px -40px;
+}
+
+
+.input-search{  
+     border-radius: 20px;
+     font-family: Muli-Regular;
+     font-size: 21px;
+     background: url(images/shape.png);
+     background-repeat: no-repeat;
+     background-position: center left 10px;
+     padding-left: 40px; 
+}
+
