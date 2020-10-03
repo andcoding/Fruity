@@ -15,7 +15,7 @@
 
         <header>
 
-            <img src="images/logo_fruity.png" class="logo" />
+            <img src="images/logo.svg" class="logo" />
 
             <input type="search" class="input-search" placeholder="Search Here">
 
