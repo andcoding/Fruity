@@ -25,3 +25,111 @@ header {
      width: 379px;
      outline: none;
 }
+
+
+nav {
+    transform: rotate(-90deg) translate(-19px, -226px);
+}
+
+ul {
+  display:flex;
+  list-style: none;
+}
+
+ a {
+    text-decoration: none;
+    color: #595959;
+    margin-right: 20px;
+}
+
+.seasonal {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+ .navbar li {
+    margin: 0px 28px;
+    font-family: 'Muli-Bold';
+} 
+
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: Bernadette;
+    font-size: 48px;
+    color: #454341;
+    line-height: 18px;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Muli-Bold';
+    color: #474747;
+}
+
+.fruit_definition {
+    margin-top: -36px;
+    margin-left: -366px;
+    max-width: 430px;
+    line-height: 34px;
+}
+
+.fruit_definition p {
+    font-family: 'Muli-Regular';
+    line-height: 34px;
+}
+
+.fruit-facts {
+    margin-left: 29px;
+    margin-top: 87px;
+}
+
+.health_benefits {
+    max-width: 273px;
+    margin-bottom: -13px;
+}
+
+.health_benefits p {
+    line-height: 24px;
+    font-family: Muli-Regular;
+    font-size: 12px;
+}
+
+.nutrion_values li {
+    list-style: none;
+    font-size: 12px;
+    font-family: Muli-Regular;
+}
+
+.straight-line {
+    margin-bottom: -126px;
+    margin-left: -235px;
+}
+
+.l-line {
+    margin-bottom: -193px;
+    margin-left: -154px;
+}
+
+ .center-image {
+    margin-left: 61px;
+}
+
+@font-face {
+    font-family: Bernadette;
+    src:url(fontfamily/bernadette.ttf);
+}
+
+@font-face {
+    font-family: Muli-Regular;
+    src:url(fontfamily/muli.regular.ttf);
+}
+
+@font-face {
+    font-family: Muli-Bold;
+    src:url(fontfamily/Muli-Bold.ttf);
+}
