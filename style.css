@@ -42,14 +42,14 @@ ul {
     margin-right: 20px;
 }
 
-.seasonal {
+.active {
     text-decoration: none;
     color: #FF0000;
 }
 
  .navbar li {
     margin: 0px 28px;
-    font-family: 'Muli-Bold';
+    font-family: muli-bold;
 } 
 
 
@@ -59,7 +59,7 @@ ul {
 }
 
 h1 {
-    font-family: Bernadette;
+    font-family: bernadette;
     font-size: 48px;
     color: #454341;
     line-height: 18px;
@@ -67,19 +67,19 @@ h1 {
 
 h2 {
     font-size: 16px;
-    font-family: 'Muli-Bold';
+    font-family: muli-bold;
     color: #474747;
 }
 
-.fruit_definition {
+.fruit-definition {
     margin-top: -36px;
     margin-left: -366px;
     max-width: 430px;
     line-height: 34px;
 }
 
-.fruit_definition p {
-    font-family: 'Muli-Regular';
+.fruit-definition p {
+    font-family: muli-regular;
     line-height: 34px;
 }
 
@@ -88,48 +88,48 @@ h2 {
     margin-top: 87px;
 }
 
-.health_benefits {
+.health-benefits {
     max-width: 273px;
     margin-bottom: -13px;
 }
 
-.health_benefits p {
+.health-benefits p {
     line-height: 24px;
-    font-family: Muli-Regular;
+    font-family: muli-regular;
     font-size: 12px;
 }
 
-.nutrion_values li {
+.nutrion-values li {
     list-style: none;
     font-size: 12px;
-    font-family: Muli-Regular;
+    font-family: muli-regular;
 }
 
-.straight-line {
+.straight_line {
     margin-bottom: -126px;
     margin-left: -235px;
 }
 
-.l-line {
+.l_line {
     margin-bottom: -193px;
     margin-left: -154px;
 }
 
- .center-image {
+ .center_image {
     margin-left: 61px;
 }
 
 @font-face {
-    font-family: Bernadette;
-    src:url(fontfamily/bernadette.ttf);
+    font-family: bernadette;
+    src:url(fonts/bernadette.ttf);
 }
 
 @font-face {
-    font-family: Muli-Regular;
-    src:url(fontfamily/muli.regular.ttf);
+    font-family: muli-regular;
+    src:url(fonts/muli.regular.ttf);
 }
 
 @font-face {
-    font-family: Muli-Bold;
-    src:url(fontfamily/Muli-Bold.ttf);
+    font-family: muli-bold;
+    src:url(fonts/muli-bold.ttf);
 }
