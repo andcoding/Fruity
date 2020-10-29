@@ -44,20 +44,20 @@
 
             </div>
 
-            <div class="center_image">
+            <div class="fruit-image">
                 <img src="images/pineapple.png" alt="pineapple">
             </div>
 
             <div class="fruit-facts">
 
                 <div class="health-benefits">
-                    <img class="straight_line" src="images/straight_line.png" alt="straight red line">
+                    <img class="health-benefit-line" src="images/straight-line.png" alt="straight red line">
                     <h2>Health Benefits</h2>
                     <p>Pineapple contains significant amount of vitamin C. a water-soluble antioxidant that fights cell damage.</p>
                 </div>
 
                 <div class="nutrion-values">
-                    <img class="l_line" src="images/l_line.png" alt="L line">
+                    <img class="nutrion-value-line" src="images/l-line.png" alt="L line">
                     <h2>Nutriotional Values</h2>
                     <li>Calories 74</li><br>
                     <li>Sugars 13.7 g</li><br>
