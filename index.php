@@ -8,7 +8,7 @@
     <title>Fruity Project</title>
 
     <link rel="icon" href="images/logo.svg" size="any" type="image/svg">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
 
@@ -59,8 +59,8 @@
                 <div class="nutrion-values">
                     <img class="nutrion-value-line" src="images/l-line.png" alt="L line">
                     <h2>Nutriotional Values</h2>
-                    <li>Calories 74</li><br>
-                    <li>Sugars 13.7 g</li><br>
+                    <li>Calories 74</li>
+                    <li>Sugars 13.7 g</li>
                     <li>Carbohydrate 19.5 g</li>
 
                 </div>
@@ -68,6 +68,33 @@
             </div>
 
         </section>
+        <footer>
+            <div class="socialmedia-icons">
+                <ul>
+
+                    <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-lg fa-instagram"></a></li>
+
+                </ul>
+            </div>
+
+            <div class="image-slider">
+                <div class="left-fruit">
+                    <img class="left-image" src="images/left_image.png" alt="">
+                    <p>Quince</p>
+                </div>
+                <div class="center-fruit">
+                    <img class="main-fruit" src="images/center_image.png" alt="">
+                    <p>Pineapple</p>
+                </div>
+                <div class="right-fruit">
+                    <img class="right-image" src="images/right_image_sample.png" alt="">
+                    <p>Green Apple</p>
+                </div>
+            </div>
+
+        </footer>
 
     </div>
 
