@@ -24,7 +24,6 @@
 
             <input type="search" class="input-search" placeholder="Search Here">
 
-
         </header>
 
         <section class="content">
@@ -51,17 +50,19 @@
             <div class="fruit-facts">
 
                 <div class="health-benefits">
-                    <img class="health-benefit-line" src="images/straight-line.png" alt="straight red line">
+                    <img class="health-benefit-line" src="images/straight-line.png" alt="straight red">
                     <h2>Health Benefits</h2>
                     <p>Pineapple contains significant amount of vitamin C. a water-soluble antioxidant that fights cell damage.</p>
                 </div>
 
                 <div class="nutrion-values">
-                    <img class="nutrion-value-line" src="images/l-line.png" alt="L line">
+                    <img class="nutrion-value-line" src="images/l-line.png" alt="L form line">
                     <h2>Nutriotional Values</h2>
-                    <li>Calories 74</li>
-                    <li>Sugars 13.7 g</li>
-                    <li>Carbohydrate 19.5 g</li>
+                    <ul>
+                        <li>Calories 74</li>
+                        <li>Sugars 13.7 g</li>
+                        <li>Carbohydrate 19.5 g</li>
+                    </ul>
 
                 </div>
 
@@ -79,6 +80,10 @@
                 </ul>
             </div>
 
+            <div class="arrows prev"></div>
+            <div class="left-arrow-line"></div>
+            <div class="left-arrow-circle"></div>
+
             <div class="image-slider">
                 <div class="left-fruit">
                     <img class="left-image" src="images/left_image.png" alt="">
@@ -93,6 +98,13 @@
                     <p>Green Apple</p>
                 </div>
             </div>
+            <div id="left-arrow">
+                <div class="arrows next"></div>
+                <div class="right-arrow-line"></div>
+                <div class="right-arrow-circle"></div>
+
+            </div>
+
 
         </footer>
 
