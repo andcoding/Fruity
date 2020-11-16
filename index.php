@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruity Project</title>
 
-    <link rel="icon" href="images/logo.svg" size="any" type="image/svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/logo.svg" size="any" type="image/svg" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="fonts/fontawesomeweb/css/all.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
 </head>
 
@@ -69,42 +70,42 @@
             </div>
 
         </section>
+
         <footer>
+
             <div class="socialmedia-icons">
-                <ul>
-
-                    <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-lg fa-instagram"></a></li>
-
-                </ul>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
             </div>
 
-            <div class="arrows prev"></div>
-            <div class="left-arrow-line"></div>
-            <div class="left-arrow-circle"></div>
+            <div class="slider-container">
+                <div class="left-arrow arrows">
+                    <i class="left-arrow-circle fas fa-arrow-left"></i>
 
-            <div class="image-slider">
-                <div class="left-fruit">
-                    <img class="left-image" src="images/left_image.png" alt="">
-                    <p>Quince</p>
                 </div>
-                <div class="center-fruit">
-                    <img class="main-fruit" src="images/center_image.png" alt="">
-                    <p>Pineapple</p>
+
+                <div class="image-slider">
+                    <div class="left-fruit">
+                        <img class="left-image" src="images/left_image.png" alt="">
+                        <p>Quince</p>
+                    </div>
+                    <div class="center-fruit">
+                        <img class="main-fruit" src="images/center_image.png" alt="">
+                        <p>Pineapple</p>
+                    </div>
+                    <div class="right-fruit">
+                        <img class="right-image" src="images/right_image_sample.png" alt="">
+                        <p>Green Apple</p>
+                    </div>
                 </div>
-                <div class="right-fruit">
-                    <img class="right-image" src="images/right_image_sample.png" alt="">
-                    <p>Green Apple</p>
+
+                <div class="right-arrow arrows">
+                    <i class="right-arrow-circle fas fa-arrow-right"></i>
+
                 </div>
+
             </div>
-            <div id="left-arrow">
-                <div class="arrows next"></div>
-                <div class="right-arrow-line"></div>
-                <div class="right-arrow-circle"></div>
-
-            </div>
-
 
         </footer>
 
