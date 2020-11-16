@@ -157,7 +157,7 @@ h2 {
 
 .left-arrow-circle {
     padding: 7px;
-    color: white;
+    color: #FFFFFF;
     background: #FA6400;
     border-radius: 50px;
     float: left;
@@ -166,7 +166,7 @@ h2 {
 .right-arrow-circle {
     padding: 7px;
     background: #FA6400;
-    color: white;
+    color: #FFFFFF;
     border-radius: 50px;
     float: right;
 }
