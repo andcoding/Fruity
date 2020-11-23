@@ -140,8 +140,7 @@ h2 {
 }
 
 .fab {
-    margin-right: 20px;
-    
+    margin-right: 20px;    
 }
 
 .slider-container {
@@ -155,23 +154,22 @@ h2 {
     margin: 2%;   
 }
 
-.left-arrow-circle {
+.left-arrow-circle,
+ .right-arrow-circle {
     padding: 7px;
     color: #FFFFFF;
     background: #FA6400;
     border-radius: 50px;
+}
+
+.left-arrow-circle {
     float: left;
 }
 
 .right-arrow-circle {
-    padding: 7px;
-    background: #FA6400;
-    color: #FFFFFF;
-    border-radius: 50px;
     float: right;
 }
    
-
 .image-slider {
     display: flex;
     align-items: center;
@@ -181,10 +179,10 @@ h2 {
 .left-fruit {
     background-color: #FA6400;
     border-radius: 7px 64px 7px 64px;
-    width: 125.43px;
-    height: 124.12px;
+    width: 125px;
+    height: 124px;
     margin-right: 15px;
-    border: 0.79px solid #979797;
+    border: 1px solid #979797;
 }
 
 .left-image {
@@ -196,16 +194,16 @@ h2 {
     margin-left: 40px;
     font-family: 'muli-regular';
     color: #454341;
-    font-size: 12.59px;
+    font-size: 13px;
 }
 
 .center-fruit {
     background-color: #FA6400;
     border-radius: 13px 107px 13px 107px;
-    width: 209.05px;
+    width: 209px;
     height: 207px;
     margin: 0 10px;
-    border: 1.31px solid #979797;
+    border: 1px solid #979797;
 }
 
 .main-fruit {
@@ -215,18 +213,18 @@ h2 {
 }
 
 .center-fruit p {
-    margin-left: 36px;
-    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 7px;
     font-family: 'muli-bold';
     color: #454341;
-    font-size: 26.13px;
+    font-size: 26px;
 }
 
 .right-fruit {
     background-color: #FA6400;
     border-radius: 7px 64px 7px 64px;
-    width: 125.43px;
-    height: 124.12px;
+    width: 125px;
+    height: 124px;
     margin-left: 15px;
 }
 
@@ -238,7 +236,7 @@ h2 {
     margin: auto;
     font-family: 'muli-regular';
     color: #454341;
-    font-size: 12.59px;
+    font-size: 13px;
     margin-left: 24px;
 }
 
